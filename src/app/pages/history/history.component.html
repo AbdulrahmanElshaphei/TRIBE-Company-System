@@ -1,0 +1,63 @@
+<nav class="top-links">
+    <a class="nav-link nav-left" routerLink="/dashboard">
+        <span class="arrow">→</span>
+        <span class="text">حجوزات اليوم</span>
+    </a>
+    <a class="nav-link nav-right" routerLink="/home">
+        <span class="text">الرئيسية</span>
+        <span class="arrow">←</span>
+    </a>
+</nav>
+
+
+
+<div class="history-section">
+
+    <section class="dashboard-section">
+        <div class="count-box shadow-sm p-4 mb-3 bg-white rounded">
+            <h5 class="text-secondary">إجمالي حجوزات اليوم</h5>
+            <h2 class="fw-bold text-danger">50</h2>
+        </div>
+    </section>
+
+
+
+    <!-- العنوان + الأزرار -->
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+        <h4 class="mb-4 flex-grow-1 text-white">📅 سجل المواعيد</h4>
+        <div class="d-flex gap-2 flex-wrap w-100 w-md-auto">
+            <input type="date" class="form-control shadow-sm" style="max-width: 200px;">
+            <button class="btn btn-primary shadow-sm">🔍 بحث</button>
+
+            <button class="btn btn-success shadow-sm" >📊 تصدير Excel</button>
+            <button class="btn btn-danger shadow-sm" >🗑️ مسح بيانات اليوم</button>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-responsive shadow-sm card">
+        <table class="table table-hover  align-middle text-center">
+            <thead>
+                <tr>
+                    <th style="text-align: center">الاسم</th>
+                    <th style="text-align: center">الهاتف</th>
+                    <th style="text-align: center">الوقت المتوقع</th>
+                    <th style="text-align: center">تاريخ اليوم</th>
+                    <th style="text-align: center">نوع الزيارة</th>
+                    <th style="text-align: center">رقم الدور</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <td>عبدالرحمن محمد الشافعي</td>
+                    <td dir="ltr">01124859707</td>
+                    <td dir="ltr">11:45</td>
+                    <td>24/11/2025</td>
+                    <td>contract</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
