@@ -24,8 +24,8 @@
   display: inline-grid;
   place-items: center;
   cursor: pointer;
-  width: 58px;
-  height: 58px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background: var(--circle);
   text-decoration: none;
